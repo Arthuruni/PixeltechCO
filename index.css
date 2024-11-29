@@ -692,5 +692,38 @@ main p {
     margin-bottom: 30px;
 }
 
+.team {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para ajustar em telas menores */
+}
+
+.team-member {
+    text-align: center;
+    width: 200px; /* Tamanho fixo para cada integrante */
+    margin-top: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Mantém proporção sem distorcer */
+    border-radius: 50%; /* Para imagens circulares */
+    border: 2px solid var(--cinzul); /* Opcional: borda ao redor da imagem */
+}
+
+.team-member p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 
 
